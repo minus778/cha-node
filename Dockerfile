@@ -2,13 +2,13 @@
 FROM node
 LABEL name="cha-node"
 #目前该项目版本号
-LABEL version="1.0"
+LABEL version="1.0.0"
 #将项目所有文件放到/app文件夹下
 COPY . /app
 WORKDIR /app
 #安装项目依赖
 RUN npm install
 #项目端口号
-EXPOSE 3000
+EXPOSE 3001
 #启动项目
 CMD npm start
