@@ -2,7 +2,7 @@
 FROM node
 LABEL name="cha-node"
 #目前该项目版本号
-LABEL version="1.0.0"
+LABEL version="1.0"
 #将项目所有文件放到/app文件夹下
 COPY . /app
 WORKDIR /app
