@@ -7,7 +7,7 @@ LABEL version="1.0.0"
 COPY . /app
 WORKDIR /app
 #安装项目依赖
-RUN npm install
+RUN cnpm install
 #项目端口号
 EXPOSE 3000
 #启动项目
