@@ -9,6 +9,6 @@ WORKDIR /app
 #安装项目依赖
 RUN npm install
 #项目端口号
-EXPOSE 3001
+EXPOSE 3000
 #启动项目
 CMD npm start
