@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: true }))
 global.secretJwt = '123456'
 
 app.get('/', (req, resp) => {
-  resp.send('自动构建测试')
+  resp.send('自动构建测试-后端部署成功')
 })
 
 app.use('/api/home', homeApi)
