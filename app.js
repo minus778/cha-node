@@ -38,5 +38,5 @@ app.use('/api/user', user)
 
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log('node server on http://localhost:3000');
+  console.log('node server on http://localhost:3000......');
 })
