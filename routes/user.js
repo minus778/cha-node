@@ -17,7 +17,7 @@ router.post('/login', (req, resp) => {
     //验证是否存在手机号
     connect.query(telSql, (err, res) => {
         //手机号存在
-        if (res.length && res.length > 0) {
+        if (res && res.length > 0) {
             connect.query(userSql, (e, r) => {
                 //密码正确
                 if (r.length > 0) {
