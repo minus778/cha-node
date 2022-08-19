@@ -8,7 +8,7 @@ COPY . /app
 WORKDIR /app
 #配置npm镜像源
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
-安装项目依赖
+# 安装项目依赖
 RUN cnpm install
 #项目端口号
 EXPOSE 3000
