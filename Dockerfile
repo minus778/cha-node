@@ -1,5 +1,5 @@
 #配置后端项目的docker镜像空间
-FROM node
+FROM node:16
 LABEL name="cha-node"
 #目前该项目版本号
 LABEL version="1.0.0"
