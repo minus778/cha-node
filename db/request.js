@@ -1,9 +1,9 @@
 const mysql = require('mysql')
 const connection = mysql.createConnection({
-    host: '119.3.102.56',
+    host: '101.33.249.237',
     //远程数据库用户名使用xmall，本地数据库用户名是root
     user: 'root', //xmall
-    password: "123456",
+    password: "hewujun1027",
     port: "3306",
     database: "xmall"
 })
