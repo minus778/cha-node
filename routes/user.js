@@ -122,7 +122,7 @@ router.post('/login/saveInfo', (req, resp) => {
             })
         } else {
             //用户不存在，添加至数据库
-            let sql2 = `insert into user (tel,pwd,imgUrl,nickName,token) values ("${userTel}","123456","http://101.33.249.237:3000/images/user.jpeg","某某某","")`
+            let sql2 = `insert into user (tel,pwd,imgUrl,nickName,token) values ("${userTel}","123456","http://101.33.249.237:3001/images/user.jpeg","某某某","")`
             connect.query(sql2, (err, res) => {
                 connect.query(sql1, (e, r) => {
                     //保存用户信息后重新获取并返回
@@ -160,7 +160,7 @@ router.post('/login/register', (req, resp) => {
             }
             jwt.sign(payload, global.secretJwt, { expiresIn: '1h' }, (err, token) => {
                 //用户不存在，添加至数据库
-                let sql2 = `insert into user (tel,pwd,imgUrl,nickName,token) values ("${userTel}","${userPwd}","http://101.33.249.237:3000/images/user.jpeg","${userTel}","${token}")`
+                let sql2 = `insert into user (tel,pwd,imgUrl,nickName,token) values ("${userTel}","${userPwd}","http://101.33.249.237:3001/images/user.jpeg","${userTel}","${token}")`
                 connect.query(sql2, (err, res) => {
                     connect.query(sql1, (e, r) => {
                         //保存用户信息后重新获取并返回

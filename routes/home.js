@@ -27,9 +27,9 @@ router.get('/index_list/0/data/1', (req, resp) => {
                 id: 0,
                 type: 'swiperList',
                 data: [
-                    { id: 0, imgUrl: 'http://101.33.249.237:3000/images/swiper1.jpeg' },
-                    { id: 1, imgUrl: 'http://101.33.249.237:3000/images/swiper2.jpeg' },
-                    { id: 3, imgUrl: 'http://101.33.249.237:3000/images/swiper3.jpeg' }
+                    { id: 0, imgUrl: 'http://101.33.249.237:3001/images/swiper1.jpeg' },
+                    { id: 1, imgUrl: 'http://101.33.249.237:3001/images/swiper2.jpeg' },
+                    { id: 3, imgUrl: 'http://101.33.249.237:3001/images/swiper3.jpeg' }
                 ]
             },
             //icons图标数据
@@ -40,27 +40,27 @@ router.get('/index_list/0/data/1', (req, resp) => {
                     {
                         id: 1,
                         title: '自饮茶',
-                        imgUrl: 'http://101.33.249.237:3000/images/icons1.png'
+                        imgUrl: 'http://101.33.249.237:3001/images/icons1.png'
                     },
                     {
                         id: 2,
                         title: '茶具',
-                        imgUrl: 'http://101.33.249.237:3000/images/icons2.png'
+                        imgUrl: 'http://101.33.249.237:3001/images/icons2.png'
                     },
                     {
                         id: 3,
                         title: '茶礼盒',
-                        imgUrl: 'http://101.33.249.237:3000/images/icons3.png'
+                        imgUrl: 'http://101.33.249.237:3001/images/icons3.png'
                     },
                     {
                         id: 4,
                         title: '领福利',
-                        imgUrl: 'http://101.33.249.237:3000/images/icons4.png'
+                        imgUrl: 'http://101.33.249.237:3001/images/icons4.png'
                     },
                     {
                         id: 5,
                         title: '官方验证',
-                        imgUrl: 'http://101.33.249.237:3000/images/icons5.png'
+                        imgUrl: 'http://101.33.249.237:3001/images/icons5.png'
                     }
                 ]
             },
@@ -74,14 +74,14 @@ router.get('/index_list/0/data/1', (req, resp) => {
                         name: '龙井1號铁罐250g',
                         content: '鲜爽甘醇 口粮首选',
                         price: '68',
-                        imgUrl: 'http://101.33.249.237:3000/images/recommend.jpeg'
+                        imgUrl: 'http://101.33.249.237:3001/images/recommend.jpeg'
                     },
                     {
                         id: 2,
                         name: '龙井1號铁罐250g',
                         content: '鲜爽甘醇 口粮首选',
                         price: '68',
-                        imgUrl: 'http://101.33.249.237:3000/images/recommend.jpeg'
+                        imgUrl: 'http://101.33.249.237:3001/images/recommend.jpeg'
                     }
                 ]
             },
@@ -92,61 +92,61 @@ router.get('/index_list/0/data/1', (req, resp) => {
                 data: [
                     {
                         id: 1,
-                        imgUrl: 'http://101.33.249.237:3000/images/goods1.jpg',
+                        imgUrl: 'http://101.33.249.237:3001/images/goods1.jpg',
                         name: '赛事茶-第三届武夷山茶叶交易会暨仙店杯-优质奖肉桂160g',
                         price: 238
                     },
                     {
                         id: 2,
-                        imgUrl: 'http://101.33.249.237:3000/images/goods2.jpg',
+                        imgUrl: 'http://101.33.249.237:3001/images/goods2.jpg',
                         name: '茶具-中式陶瓷茶叶罐 2色可选',
                         price: 26
                     },
                     {
                         id: 3,
-                        imgUrl: 'http://101.33.249.237:3000/images/goods3.jpg',
+                        imgUrl: 'http://101.33.249.237:3001/images/goods3.jpg',
                         name: '绿茶  远致龙井3号 150g 清爽甘醇',
                         price: 118
                     },
                     {
                         id: 4,
-                        imgUrl: 'http://101.33.249.237:3000/images/goods4.jpg',
+                        imgUrl: 'http://101.33.249.237:3001/images/goods4.jpg',
                         name: '明前春茶 绿茶 龙井破春系列80g罐装',
                         price: 98
                     },
                     {
                         id: 5,
-                        imgUrl: 'http://101.33.249.237:3000/images/like.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     },
                     {
                         id: 6,
-                        imgUrl: 'http://101.33.249.237:3000/images/like.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     },
                     {
                         id: 7,
-                        imgUrl: 'http://101.33.249.237:3000/images/like2.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like2.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     },
                     {
                         id: 8,
-                        imgUrl: 'http://101.33.249.237:3000/images/like3.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like3.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     },
                     {
                         id: 9,
-                        imgUrl: 'http://101.33.249.237:3000/images/like2.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like2.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     },
                     {
                         id: 10,
-                        imgUrl: 'http://101.33.249.237:3000/images/like3.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like3.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     },
@@ -167,11 +167,11 @@ router.get('/index_list/1/data/1', (req, resp) => {
                 data: [
                     {
                         id: 1,
-                        imgUrl: 'http://101.33.249.237:3000/images/dhp.jpeg'
+                        imgUrl: 'http://101.33.249.237:3001/images/dhp.jpeg'
                     },
                     {
                         id: 2,
-                        imgUrl: 'http://101.33.249.237:3000/images/dhp.jpeg'
+                        imgUrl: 'http://101.33.249.237:3001/images/dhp.jpeg'
                     }
                 ]
             },
@@ -181,19 +181,19 @@ router.get('/index_list/1/data/1', (req, resp) => {
                 data: [
                     {
                         id: 1,
-                        imgUrl: 'http://101.33.249.237:3000/images/like.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     },
                     {
                         id: 2,
-                        imgUrl: 'http://101.33.249.237:3000/images/like.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     },
                     {
                         id: 3,
-                        imgUrl: 'http://101.33.249.237:3000/images/like.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     }
@@ -214,11 +214,11 @@ router.get('/index_list/2/data/1', (req, resp) => {
                 data: [
                     {
                         id: 1,
-                        imgUrl: 'http://101.33.249.237:3000/images/tgy.jpeg'
+                        imgUrl: 'http://101.33.249.237:3001/images/tgy.jpeg'
                     },
                     {
                         id: 2,
-                        imgUrl: 'http://101.33.249.237:3000/images/tgy.jpeg'
+                        imgUrl: 'http://101.33.249.237:3001/images/tgy.jpeg'
                     }
                 ]
             },
@@ -229,27 +229,27 @@ router.get('/index_list/2/data/1', (req, resp) => {
                     {
                         id: 1,
                         title: '自饮茶',
-                        imgUrl: 'http://101.33.249.237:3000/images/icons1.png'
+                        imgUrl: 'http://101.33.249.237:3001/images/icons1.png'
                     },
                     {
                         id: 2,
                         title: '茶具',
-                        imgUrl: 'http://101.33.249.237:3000/images/icons2.png'
+                        imgUrl: 'http://101.33.249.237:3001/images/icons2.png'
                     },
                     {
                         id: 3,
                         title: '茶礼盒',
-                        imgUrl: 'http://101.33.249.237:3000/images/icons3.png'
+                        imgUrl: 'http://101.33.249.237:3001/images/icons3.png'
                     },
                     {
                         id: 4,
                         title: '领福利',
-                        imgUrl: 'http://101.33.249.237:3000/images/icons4.png'
+                        imgUrl: 'http://101.33.249.237:3001/images/icons4.png'
                     },
                     {
                         id: 5,
                         title: '官方验证',
-                        imgUrl: 'http://101.33.249.237:3000/images/icons5.png'
+                        imgUrl: 'http://101.33.249.237:3001/images/icons5.png'
                     }
                 ]
             },
@@ -259,19 +259,19 @@ router.get('/index_list/2/data/1', (req, resp) => {
                 data: [
                     {
                         id: 1,
-                        imgUrl: 'http://101.33.249.237:3000/images/like.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     },
                     {
                         id: 2,
-                        imgUrl: 'http://101.33.249.237:3000/images/like.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     },
                     {
                         id: 3,
-                        imgUrl: 'http://101.33.249.237:3000/images/like.jpeg',
+                        imgUrl: 'http://101.33.249.237:3001/images/like.jpeg',
                         name: '建盏茶具套装 红色芝麻毫 12件套',
                         price: 299
                     }
